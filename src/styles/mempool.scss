@@ -1,0 +1,15 @@
+#mempool {
+    @apply w-full h-full text-white overflow-x-hidden;
+
+    .title {
+        @apply text-[20px] text-white font-bold text-center mb-5;
+    }
+
+    #pending {
+        @apply h-[390px] overflow-y-scroll flex flex-col gap-[6px];
+    }
+
+    #executed {
+        @apply h-[390px] overflow-y-scroll flex flex-col gap-[6px];
+    }
+}

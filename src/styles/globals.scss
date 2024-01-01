@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./colors.scss";
+@import "./header.scss";
+@import "./content.scss";
+@import "./mempool.scss";
+@import "./transaction.scss";
+@import "./accountInfo.scss";
+@import './contractInfo.scss';
+@import './frontRun.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  @apply bg-primary-bg;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-color;
+  border-radius: 10px;
+}

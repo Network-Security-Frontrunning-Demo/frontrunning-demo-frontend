@@ -1,0 +1,11 @@
+#front-run {
+    @apply bg-header-bg flex flex-col gap-6 px-8 py-8;
+
+    .ant-btn {
+        @apply flex items-center justify-center py-[18px] bg-primary-color border-primary-color;
+    }
+
+    .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+        @apply text-black border-primary-color opacity-90;
+    }
+}

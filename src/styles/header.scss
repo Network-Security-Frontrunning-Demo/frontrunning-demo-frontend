@@ -1,0 +1,12 @@
+#header {
+	@apply h-[90px] px-20 py-4 fixed top-0 z-50
+        left-0 right-0 bg-header-bg flex items-center justify-between text-white;
+
+	.ant-btn {
+		@apply h-auto bg-primary-color flex items-center gap-2 border-primary-color;
+	}
+
+    .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+        @apply text-black border-primary-color opacity-90;
+    }
+}

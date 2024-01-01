@@ -1,0 +1,11 @@
+#contract-info {
+    @apply flex flex-col;
+
+    .ant-btn {
+        @apply flex items-center justify-center py-[18px] bg-primary-color border-primary-color;
+    }
+
+    .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+        @apply text-black border-primary-color opacity-90;
+    }
+}
